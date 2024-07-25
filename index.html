@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <title>Bootstrap training</title>
+</head>
+<body>
+    <nav class="navbar fixed-top d-flex justify-content-between px-2 bg-black rounded-pill w-75" data-aos="fade-down">
+        <div class="left-nav ps-3">
+            <a href="#" class="text-warning fw-bold navbar-brand">Bootstrap</a>
+        </div>
+        <div class="middle-nav d-flex align-items-center">
+            <ul class="d-flex gap-2 list-unstyled mb-0">
+                <li class="nav-item"><a href="#home" class="nav-link text-white rounded-pill">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link text-white rounded-pill">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white rounded-pill">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white rounded-pill">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <div class="download-button">
+                <a href="#" class="btn btn-warning rounded-pill px-4">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="hero d-flex align-items-center justify-content-center position-relative" id="home">
+            <div class="hero-content text-center d-flex flex-column align-items-center">
+                <div class="badge d-flex align-items-center bg-white text-black gap-2 px-3 rounded-pill mb-3" data-aos="flip-up">
+                    <i class="fab fa-bootstrap fa-2x"></i>
+                    <p style="margin-bottom: 0 !important;">Smart learning, easy to use</p>
+                </div>
+                <h1>Welcome to Bootstrap Training</h1>
+                <p>Your journey to mastering Bootstrap starts here with @humdiee.js</p>
+                <div class="button-group d-flex gap-2">
+                    <a href="#" class="btn btn-warning rounded-pill px-4">Ayo belajar!</a>
+                </div>
+            </div>
+            <div class="bear position-absolute">
+                <img src="./img/bear.png" alt="">
+            </div>
+        </div>
+
+        <div class="about pt-5" id="about">
+            <div class="about-wrapper container d-flex flex-column align-items-center justify-content-center mt-5">
+                <h4 class="fw-bold px-4 py-2 bg-black rounded-pill text-white">About Us</h4>
+                <div class="row mt-5">
+                    <div class="col">
+                        <div class="about-image w-5 shadow-md rounded-4">
+                            <img src="https://instiki.ac.id/wp-content/uploads/2022/04/DSC03977.jpg" class="w-100 rounded-4 shadow-lg" alt="orang-belajar-coding">
+                        </div>
+                    </div>
+                    <div class="col align-items-center ps-5">
+                        <div class="about-content d-flex flex-column">
+                            <h1 class="about-title fw-bold lh-base  ">Lingkungan belajar yang <span class="bg-warning px-2 text-white">asik.</span></h1>
+                            <p class="about-text mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta soluta quos culpa nobis enim provident, iure inventore. Corrupti fuga, architecto accusantium possimus deserunt fugiat tempora odit praesentium omnis. Reprehenderit mollitia, veniam sapiente maxime ducimus cumque cupiditate at tenetur corporis, rem vel provident, consequuntur repudiandae sequi!</p>
+                            <!-- <a href="#" class="join-button btn btn-warning rounded-pill px-4">Gabung sekarang</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/cff8b87f33.js" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
